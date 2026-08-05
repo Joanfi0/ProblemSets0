@@ -33,3 +33,9 @@ public class PruebaAtributos {
         System.out.println("Variable local: " + variableLocal);
     }
 }
+
+
+/*
+➜  aed git:(ejercicios) ✗ javac -d out src/main/java/aed/ucu/PruebaAtributos.java
+➜  aed git:(ejercicios) ✗ java -cp out aed.ucu.PruebaAtributos  
+*/
