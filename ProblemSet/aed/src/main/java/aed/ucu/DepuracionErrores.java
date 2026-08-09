@@ -2,6 +2,8 @@ package aed.ucu;
 
 public class DepuracionErrores {
 
+    // Como no hay repartido original me invente algo para tirar errores
+
     public static int divisionSegura(int a, int b) {
         if (b == 0) {
             throw new IllegalArgumentException("El divisor no puede ser cero.");
