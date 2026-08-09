@@ -4,11 +4,6 @@ import java.util.Scanner;
 
 public class UtilMath {
 
-    /*
-     * 0! y 1! valen 1.
-     * Devuelve -1 para negativos y para valores mayores que 12,
-     * porque 13! ya no cabe en un int.
-     */
     public static int factorial(int num) {
         if (num < 0 || num > 12) {
             return -1;
@@ -66,13 +61,3 @@ public class UtilMath {
         scanner.close();
     }
 }
-
-    /*
- * 1. El factorial devuelve int. Como 13! no cabe en ese tipo, se devuelve
- *    -1 para entradas negativas o mayores que 12. Este valor no puede
- *    confundirse con un factorial válido.
- *
- * 2. Para decidir si un número es primo solo se buscan divisores hasta su raíz
- *    cuadrada. Las sumas comienzan en 0 si el número es primo y en 1 si no lo
- *    es, avanzando de dos en dos para recorrer solamente pares o impares.
- */
